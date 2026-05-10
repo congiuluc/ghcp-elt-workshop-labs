@@ -1,4 +1,4 @@
-# Lab 6 (no repo, general purpose) — Mini progetto end-to-end
+# Lab 6 — Mini progetto end-to-end
 
 **Durata**: ~30'
 **Setup**: una cartella vuota
@@ -12,8 +12,8 @@ Realizzare end-to-end **da zero** un mini-progetto a scelta usando l'intero work
 - `copilot-instructions.md` con il coding style del linguaggio (Lab 2 GP)
 - Prompt file riutilizzabile (es. `/add-tests`)
 - Custom agent "Code Reviewer" (Lab 4 GP)
-- Plan mode + Agent mode (Lab 1 no-repo)
-- Copilot CLI per script di build/lint/CI (Lab 3 no-repo)
+- Plan mode + Agent mode (Lab 1)
+- Copilot CLI per script di build/lint/CI (Lab 3)
 
 ## Setup (2')
 ```bash

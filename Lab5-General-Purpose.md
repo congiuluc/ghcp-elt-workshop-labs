@@ -1,4 +1,4 @@
-# Lab 5 (no repo, general purpose) — State machine: refactoring + bug hunting
+# Lab 5 — State machine: refactoring + bug hunting
 
 **Durata**: ~30'
 **Setup**: una cartella vuota

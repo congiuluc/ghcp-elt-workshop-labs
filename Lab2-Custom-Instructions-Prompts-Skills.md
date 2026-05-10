@@ -1,7 +1,7 @@
-# Lab 2 (no repo) — Custom instructions, Prompt files, Custom agent
+# Lab 2 — Custom instructions, Prompt files, Custom agent
 
 **Durata**: ~20'
-**Setup**: una cartella vuota (può essere la stessa del Lab 1 no-repo, o una nuova)
+**Setup**: una cartella vuota (può essere la stessa del Lab 1, o una nuova)
 **Modalità Copilot**: Ask + Agent
 
 > 📚 Doc:

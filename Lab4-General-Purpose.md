@@ -1,4 +1,4 @@
-# Lab 4 (no repo, general purpose) — Test generation + bug hunting
+# Lab 4 — Test generation + bug hunting
 
 **Durata**: ~30'
 **Setup**: una cartella vuota
@@ -17,7 +17,7 @@
 ```bash
 mkdir copilot-lab4-gp && cd copilot-lab4-gp && code .
 ```
-Crea (o riutilizza dal Lab 2 no-repo) `.github/copilot-instructions.md` con il coding style del linguaggio scelto. Riferimento: [varianti general purpose Lab 2](Lab2-Custom-Instructions-Prompts-Skills.md#varianti-general-purpose-python--java--c--net).
+Crea (o riutilizza dal Lab 2) `.github/copilot-instructions.md` con il coding style del linguaggio scelto. Riferimento: [varianti general purpose Lab 2](Lab2-Custom-Instructions-Prompts-Skills.md#varianti-general-purpose-python--java--c--net).
 
 Crea anche un custom agent **Code Reviewer** in `.github/agents/code-reviewer.agent.md`:
 

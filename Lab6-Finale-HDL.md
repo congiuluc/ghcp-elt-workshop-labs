@@ -1,4 +1,4 @@
-# Lab 6 (no repo) — Mini progetto HDL end-to-end
+# Lab 6 — Mini progetto HDL end-to-end
 
 **Durata**: ~30'
 **Setup**: una cartella vuota
@@ -6,18 +6,18 @@
 
 ## Obiettivo
 Realizzare end-to-end **da zero** un mini-IP a scelta usando l'intero workflow:
-- `copilot-instructions.md` con il coding style aziendale (Lab 2 no-repo)
-- Prompt file riutilizzabile (Lab 2 no-repo)
-- Custom agent "RTL Reviewer" (Lab 2 no-repo)
-- Plan mode + Agent mode (Lab 1 no-repo)
-- Copilot CLI per script di build/sim (Lab 3 no-repo)
+- `copilot-instructions.md` con il coding style aziendale (Lab 2)
+- Prompt file riutilizzabile (Lab 2)
+- Custom agent "RTL Reviewer" (Lab 2)
+- Plan mode + Agent mode (Lab 1)
+- Copilot CLI per script di build/sim (Lab 3)
 
 ## Setup (2')
 ```bash
 mkdir copilot-lab6 && cd copilot-lab6 && code .
 mkdir -p src tb sim .github/prompts .github/agents
 ```
-Copia (o rigenera) `.github/copilot-instructions.md`, il prompt file `generate-testbench.prompt.md` e l'agent `rtl-reviewer.agent.md` dal Lab 2 no-repo.
+Copia (o rigenera) `.github/copilot-instructions.md`, il prompt file `generate-testbench.prompt.md` e l'agent `rtl-reviewer.agent.md` dal Lab 2.
 
 ## Scegli un progetto (in team)
 

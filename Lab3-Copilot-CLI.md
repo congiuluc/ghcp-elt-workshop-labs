@@ -1,4 +1,4 @@
-# Lab 3 (no repo) — GitHub Copilot CLI
+# Lab 3 — GitHub Copilot CLI
 
 **Durata**: ~20'
 **Prerequisiti**: Node.js 22+

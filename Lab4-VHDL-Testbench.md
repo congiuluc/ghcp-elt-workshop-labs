@@ -1,8 +1,8 @@
-# Lab 4 (no repo) — VHDL: FIFO da zero, testbench, bug hunting
+# Lab 4 — VHDL: FIFO da zero, testbench, bug hunting
 
 **Durata**: ~30'
 **Setup**: una cartella vuota
-**Modalità Copilot**: Agent → Custom agent "RTL Reviewer" (Lab 2 no-repo) → Edit/Inline chat
+**Modalità Copilot**: Agent → Custom agent "RTL Reviewer" (Lab 2) → Edit/Inline chat
 
 > 📚 GHDL: <https://ghdl.github.io/ghdl/>
 
@@ -17,7 +17,7 @@
 mkdir copilot-lab4 && cd copilot-lab4 && code .
 ```
 Assicurati di avere:
-- `.github/copilot-instructions.md` con il coding style HDL del [Lab 2 no-repo](Lab2-Custom-Instructions-Prompts-Skills.md) (copialo o rigeneralo)
+- `.github/copilot-instructions.md` con il coding style HDL del [Lab 2](Lab2-Custom-Instructions-Prompts-Skills.md) (copialo o rigeneralo)
 - (Opzionale) `.github/prompts/generate-testbench.prompt.md`
 - (Opzionale) `.github/agents/rtl-reviewer.agent.md`
 
@@ -75,7 +75,7 @@ ghdl -r --std=08 tb_fifo_sync --vcd=out.vcd --stop-time=10us
 
 ## Step 3 — Code review col custom agent (8')
 
-Seleziona dal dropdown agente il custom agent **"RTL Reviewer"** (creato nel Lab 2 no-repo). Oppure usa Ask:
+Seleziona dal dropdown agente il custom agent **"RTL Reviewer"** (creato nel Lab 2). Oppure usa Ask:
 ```
 Fai code review RTL di #file:src/fifo_sync.vhd. Cerca specialmente:
 latch inferiti, sensitivity list incomplete, naming non conforme.

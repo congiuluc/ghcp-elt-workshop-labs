@@ -1,4 +1,4 @@
-# Lab 1 (no repo) — Agent mode + Plan mode
+# Lab 1 — Agent mode + Plan mode
 
 **Durata**: ~25'
 **Setup**: una cartella vuota aperta in VS Code

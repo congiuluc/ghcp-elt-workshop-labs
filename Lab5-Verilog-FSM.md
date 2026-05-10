@@ -1,4 +1,4 @@
-# Lab 5 (no repo) — Verilog: FSM da zero, refactoring Mealy → Moore, SDC
+# Lab 5 — Verilog: FSM da zero, refactoring Mealy → Moore, SDC
 
 **Durata**: ~30'
 **Setup**: una cartella vuota
@@ -16,7 +16,7 @@
 ```bash
 mkdir copilot-lab5 && cd copilot-lab5 && code .
 ```
-Assicurati di avere `.github/copilot-instructions.md` (Lab 2 no-repo) e il custom agent **RTL Reviewer**.
+Assicurati di avere `.github/copilot-instructions.md` (Lab 2) e il custom agent **RTL Reviewer**.
 
 ## Step 1 — Genera la FSM (6')
 
